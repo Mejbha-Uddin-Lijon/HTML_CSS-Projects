@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobile first</title>
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        /* Mobile first approach will act automatically from here */
+        .single-card{
+            box-shadow: 0px .0965214490890503px 2.96769905090332px;
+            text-align: center;
+            font-family: Poppins;     
+            letter-spacing: 1px;
+            padding: 20px;    
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #969292;
+            
+        }
+        .card-title{
+            color: black;
+            font-size: 20px;
+            letter-spacing: 1px;
+            word-wrap: break-word;
+        }
+
+        .card-para{
+            color: #4A4545;
+            font-size: 16px;
+            font-family: Poppins;
+            font-weight: 400;
+            letter-spacing: 0.32px;
+            word-wrap: break-word
+
+        }
+        h1.heading{
+            
+            width:245px;
+            height: 250px;
+           
+            
+        } 
+h1{
+    text-align: center;
+}
+
+        /* Mobile first approach end point  */
+
+        /* ----------------xxxxx----------------------------- */
+
+
+
+            /* Media query for tablet and other bigger screen device like desktop etc  */
+
+    @media  screen and (min-width:700px){
+        .single-cards{
+           
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: rgb(162, 79, 240);
+            
+            /* margin: 0 auto; */
+            /* 700 theke resonsiveness show korbe */
+            
+        }
+
+        .card-para{
+            color: #fffefe;
+        }
+
+        .card-title{
+            color: rgb(153, 235, 226);
+        }
+
+        
+        
+    }
+
+    /* ------------------------------------xxxxxxxx------------------------- */
+    </style>
+</head>
+<body>
+    
+        <div class="card-area">
+            <div class="card">
+                <div class="single-cards">
+                    <div class="single-card">
+                    <img src="doc-image.png" alt="image">
+                    <h3 class="card-title">Donor darah</h3>
+                    <p class="card-para">Cek ketersediaan donor darah atau mau donor darah</p>
+                    </div>
+
+                    <div class="single-card">
+                        <img src="doc-image.png" alt="image">
+                        <h3 class="card-title">Donor darah</h3>
+                        <p class="card-para">Cek ketersediaan donor darah atau mau donor darah</p>
+                        </div>
+
+                        <div class="single-card">
+                            <img src="doc-image.png" alt="image">
+                            <h3 class="card-title">Donor darah</h3>
+                            <p class="card-para">Cek ketersediaan donor darah atau mau donor darah</p>
+                            </div>
+                </div>
+                <div class="single-cards">
+                    <div class="single-card">
+                        <img src="doc-image.png" alt="image">
+                        <h3 class="card-title">Donor darah</h3>
+                        <p class="card-para">Cek ketersediaan donor darah atau mau donor darah</p>
+                        </div>
+
+                        <div class="single-card">
+                            <img src="doc-image.png" alt="image">
+                            <h3 class="card-title">Donor darah</h3>
+                            <p class="card-para">Cek ketersediaan donor darah atau mau donor darah</p>
+                            </div>
+
+                            <div class="single-card">
+                                <img src="doc-image.png" alt="image">
+                                <h3 class="card-title">Donor darah</h3>
+                                <p class="card-para">Cek ketersediaan donor darah atau mau donor darah</p>
+                                </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
